@@ -1,0 +1,7 @@
+files: A3
+
+A3: A3.c
+	gcc -Wall -std=c99 -pedantic A3.c -o A3
+
+clean: 
+	rm A3
